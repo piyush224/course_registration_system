@@ -1,0 +1,72 @@
+.parent{
+	background-color: #455A64;
+	height:350px;
+	width: 350px;
+	border-radius: 10px;
+	opacity: .9;
+	padding: 25px;
+	margin-top:120px;
+	margin-left: 475px;
+}
+
+h4{
+	padding-left: 10px;
+	padding-top: 10px;
+	color: white;
+}
+
+#username{
+	margin-right:10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+	width: 330px;
+	border-radius: 2px;
+}
+
+#password{
+	margin-right:10px;
+	margin-left: 10px;
+	height: 30px;
+	width: 330px;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+#submit{
+	margin-right:10px;
+	margin-left: 10px;
+	height: 35px;
+	width: 335px;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	background-color: #0288D1;
+	color:white;
+}
+
+#reset{
+	margin-right:10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	height: 35px;
+	width: 335px;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	background-color: #BA68C8;
+	color:white;
+}
+#link1{
+	color:white;
+	padding-left:20px;
+	padding-bottom: 50px;
+}
+#link2{
+	color:white;
+	padding-left:100px;
+	padding-bottom: 50px;	
+}
+
+#linkp{
+	margin-bottom: 20px;
+	margin-top: 0px;
+}

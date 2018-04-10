@@ -1,0 +1,32 @@
+<script>
+	
+	function validation(){
+		var val;
+		var result;
+		var x = document.getElementsByName('username')[0].value;
+		var p = document.getElementsByName('password')[0].value;
+			
+		var req = new XMLHttpRequest();
+		req.open('post','http://localhost/course_reg/login.php',true);
+		req.send('username='+x+'&password='+p);
+
+		
+		req.onreadystatechange = function(){
+			if(req.readyState == 4 && req.status == 200){
+				//alert("There is a problem");
+				result = req.responseText;
+				alert(result);
+			}
+		};
+		
+		
+		
+		if(result == 'true'){
+			window.location = 'http://localhost/course_reg/home.php'
+		}
+		else{
+			val = false;
+			return(val);
+		}
+	}		
+	</script>
